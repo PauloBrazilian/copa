@@ -1,0 +1,379 @@
+/* links */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap'); /* font-family: 'Irish Grover', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap'); /* font-family: 'Syncopate', sans-serif; */
+
+/* all */
+*{
+    margin: 0;
+}
+
+
+
+/* header */
+nav {
+    background-image: url(imgs/papelverde.jpg);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    box-shadow: 0 10px 20px rgb(0 0 0);
+}
+
+.principal{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.principal h1{
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.times{
+    margin-right: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.times h2{
+    margin-left: 20px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 2vh;
+    color: white;
+}
+
+/* main */
+.comeco{
+    background-image: url("imgs/papelamarelo.jpg");
+}
+
+.meio{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio img{
+    background-image: url("imgs/papelBranco-removebg-preview.png");
+    background-repeat: round;
+    transition: 3s;
+}
+
+.meio h2{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.meio h3{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+
+ /* Brasil */
+.part1{
+    background-image: url("imgs/papelamarelo.jpg");
+}
+
+.Brasil{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Brasil h3{
+    font-family: 'Irish Grover', cursive;
+}
+
+.tudo{
+    margin-left: -10rem;
+    background-image: url("imgs/papelBranco-removebg-preview.png");
+    display: flex;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: 86rem 51rem;
+    background-position: 15px;
+}
+
+.tudo .foto1{
+    width: 500px;
+    height: 600px;
+    border-radius: 20%;
+    position: relative;
+    left: 8rem;
+    transition: 3s;
+}
+
+.letrasB {
+    color: #36c236;
+    position: relative;
+    right: 18rem;
+    top: 6rem;
+}
+
+.letrasB h3{
+    font-size: 4vw;
+    margin-top: 10px;
+}
+
+.tudo .foto2{
+    position: relative;
+    left: 0em;
+    height: 25rem;
+    top: 5rem;
+    transition: 3s;
+}
+
+.stars{
+    display: flex;
+    position: relative;
+    right: 267px;
+    width: 0;
+    height: 0;
+
+}
+
+.stars img{
+    width: 50px;
+    height: 50px;
+}
+
+.brazao{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -13rem;
+    top: 30rem;
+}
+
+.brazao img{
+    transition: 3s;
+    height: 10rem;
+}
+
+    /* Servia */
+.part2{
+    background-image: url("imgs/papelVermelho.jpg");
+}
+
+.Servia{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Servia h3{
+    font-family: 'Irish Grover', cursive;
+}
+
+.BoxG{
+    margin-left: -10rem;
+    background-image: url("imgs/papelBranco-removebg-preview.png");
+    display: flex;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: 86rem 51rem;
+    background-position: 15px;
+}
+
+.Servia .BoxG .picture1{
+    width: 500px;
+    height: 600px;
+    border-radius: 20%;
+    position: relative;
+    left: 8rem;
+    transition: 3s;
+}
+
+.letrasS {
+    color: #e4dff3;
+    position: relative;
+    right: 18rem;
+    top: 7rem;
+}
+
+.letrasS h3{
+    font-size: 4vw;
+    margin-top: 10px;
+}
+
+.BoxG .picture2{
+    position: relative;
+    left: 0em;
+    height: 21rem;
+    top: 8rem;
+    border-radius: 4rem;
+    transition: 3s;
+}
+
+.simbolo{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -9rem;
+    top: 29rem;
+}
+
+.simbolo img{
+    height: 10rem;
+    transition: 3s;
+} 
+
+    /* Suiça */
+.part3{
+    background-image: url("imgs/papelVermelho.jpg");
+}
+
+.Suiça{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Suiça h3{
+    font-family: 'Irish Grover', cursive;
+}
+
+.caixa{
+    margin-left: -10rem;
+    background-image: url("imgs/papelBranco-removebg-preview.png");
+    display: flex;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: 86rem 51rem;
+    background-position: 15px;
+}
+
+.caixa .fo1{
+    width: 500px;
+    height: 600px;
+    border-radius: 20%;
+    position: relative;
+    left: 8rem;
+    transition: 3s;
+}
+
+.letrasSu {
+    color: #fb413b;
+    position: relative;
+    right: 19rem;
+    top: 8rem;
+}
+
+.letrasSu h3{
+    font-size: 4vw;
+    margin-top: 10px;
+}
+
+.caixa .fo2{
+    position: relative;
+    left: 0em;
+    height: 21rem;
+    top: 8rem;
+    border-radius: 4rem;
+    transition: 3s;
+}
+
+.escudo{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -9rem;
+    top: 31rem;
+}
+
+.escudo img{
+    transition: 3s;
+    height: 6rem;
+} 
+
+    /* Camaroes */
+.part4{
+    background-image: url("imgs/papelverde.jpg");
+}
+
+.Cama{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Cama h3{
+    font-family: 'Irish Grover', cursive;
+}
+
+.seguraT{
+    margin-left: -10rem;
+    background-image: url("imgs/papelBranco-removebg-preview.png");
+    display: flex;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: 86rem 51rem;
+    background-position: 15px;
+}
+
+.seguraT .f1{
+    width: 500px;
+    height: 600px;
+    border-radius: 20%;
+    position: relative;
+    left: 8rem;
+    transition: 3s;
+}
+
+.letrasC {
+    color: #398c6e;
+    position: relative;
+    right: 22rem;
+    top: 4rem;
+}
+
+.letrasC h3{
+    font-size: 3vw;
+    margin-top: 10px;
+}
+
+.seguraT .f2{
+    position: relative;
+    left: 0em;
+    height: 21rem;
+    top: 8rem;
+    border-radius: 4rem;
+    transition: 3s;
+}
+
+.sla{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: -9rem;
+    top: 31rem;
+}
+
+.sla img{
+    transition: 3s;
+    height: 6rem;
+} 
+
+/* footer */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+
+footer h2{
+    padding: 20px;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
